@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Contact | Apex Motors
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer>
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">
+      Skip to main content
+    </a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="logo" href="index.html">
+          <img src="images/apex-motors-logo.png" alt="Apex Motors home">
+          <span class="sr-only">
+            Apex Motors
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">
+            Home
+          </a>
+          <a href="inventory.html">
+            Inventory
+          </a>
+          <a href="services.html">
+            Services
+          </a>
+          <a href="financing.html">
+            Financing
+          </a>
+          <a href="compare.html">
+            Compare
+          </a>
+          <a href="showroom.html">
+            Showroom
+          </a>
+          <a href="about.html">
+            About
+          </a>
+          <a href="contact.html">
+            Contact
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content">
+      <section class="hero small">
+        <div class="container hero-content">
+          <div class="eyebrow">
+            Start a conversation
+          </div>
+          <h1>
+            Tell us what you are looking for.
+          </h1>
+          <p>
+            Ask a question, arrange a test drive, or let us source something exceptional.
+          </p>
+          <div class="actions">
+            <a class="btn" href="#apex-profile">
+              Explore Apex Club
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container form-layout">
+          <div class="form-card">
+            <div class="kicker">
+              Contact and booking
+            </div>
+            <h2>
+              Make it yours.
+            </h2>
+            <form id="contactForm" data-validate-form novalidate data-success="Your sample request is valid. No data was sent or stored.">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">
+                    Full name
+                  </label>
+                  <input id="name" name="name" required type="text" placeholder="Your name" data-validate aria-describedby="name-error" autocomplete="name">
+                  <span class="field-error" id="name-error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="email">
+                    Email address
+                  </label>
+                  <input id="email" name="email" required type="email" placeholder="you@example.com" data-validate aria-describedby="email-error" autocomplete="email">
+                  <span class="field-error" id="email-error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="interest">
+                    Interest
+                  </label>
+                  <select id="interest" name="interest">
+                    <option>
+                      Booking a test drive
+                    </option>
+                    <option>
+                      Vehicle service
+                    </option>
+                    <option>
+                      Finance conversation
+                    </option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="date">
+                    Preferred date
+                  </label>
+                  <input id="date" name="date" type="date">
+                </div>
+                <fieldset class="field full">
+                  <legend>
+                    Preferred exterior colour
+                  </legend>
+                  <div class="choice-row">
+                    <label>
+                      <input type="radio" name="colour" value="graphite">
+                      Graphite
+                    </label>
+                    <label>
+                      <input type="radio" name="colour" value="ivory">
+                      Ivory
+                    </label>
+                    <label>
+                      <input type="radio" name="colour" value="copper">
+                      Copper
+                    </label>
+                  </div>
+                </fieldset>
+                <div class="field full">
+                  <label for="message">
+                    How can we help?
+                  </label>
+                  <textarea id="message" name="message" rows="5" placeholder="Tell us about your ideal vehicle."></textarea>
+                </div>
+              </div>
+              <button class="btn" type="submit">
+                Send request
+              </button>
+              <p id="contactStatus" class="form-status" data-form-status role="status" aria-live="polite"></p>
+              <p class="small">
+                Demo form only: no personal information is sent or stored.
+              </p>
+            </form>
+          </div>
+          <div>
+            <div class="kicker">
+              Find us
+            </div>
+            <h2>
+              Come by for a closer look.
+            </h2>
+            <p>
+              42 Meridian Avenue
+              <br>
+              Karachi, PK 75500
+            </p>
+            <p>
+              Monday to Saturday, 09:00 to 19:00
+            </p>
+            <div class="quote">
+              We reply within one business day.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section profile-section" id="apex-profile" aria-labelledby="profile-title">
+        <div class="container">
+          <div class="form-card">
+            <div class="kicker">
+              Apex Club
+            </div>
+            <h2 id="profile-title">
+              Make room for what is next.
+            </h2>
+            <p class="form-intro">
+              Try our member registration form to explore your next vehicle with confidence.
+            </p>
+            <form id="profile-form" data-validate-form novalidate data-success="Your profile details are valid. This demo did not create an account or store your data.">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="profile-name">
+                    Full name
+                  </label>
+                  <input id="profile-name" name="name" type="text" autocomplete="name" required data-validate aria-describedby="profile-name-error" placeholder="Your name">
+                  <span class="field-error" id="profile-name-error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="profile-email">
+                    Email address
+                  </label>
+                  <input id="profile-email" name="email" type="email" autocomplete="email" required data-validate aria-describedby="profile-email-error" placeholder="you@example.com">
+                  <span class="field-error" id="profile-email-error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="profile-password">
+                    Password
+                  </label>
+                  <input id="profile-password" name="password" type="password" autocomplete="new-password" minlength="8" required data-validate aria-describedby="password-help profile-password-error">
+                  <small class="field-hint" id="password-help">
+                    Use at least 8 characters. Use a sample password for this demo.
+                  </small>
+                  <span class="field-error" id="profile-password-error" aria-live="polite"></span>
+                </div>
+                <div class="field">
+                  <label for="profile-confirm-password">
+                    Confirm password
+                  </label>
+                  <input id="profile-confirm-password" name="confirm-password" type="password" autocomplete="new-password" required data-validate data-confirm="profile-password" aria-describedby="profile-confirm-password-error">
+                  <span class="field-error" id="profile-confirm-password-error" aria-live="polite"></span>
+                </div>
+              </div>
+              <button class="btn" type="submit">
+                Validate profile
+              </button>
+              <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+              <p class="field-hint">
+                Demo registration only. No account is created and no personal information is sent or stored.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo" href="index.html">
+            <img src="images/apex-motors-logo.png" alt="Apex Motors home">
+            <span class="sr-only">
+              Apex Motors
+            </span>
+          </a>
+          <p>
+            Considered vehicles. Clear advice.
+          </p>
+        </div>
+        <div>
+          <h3>
+            Visit
+          </h3>
+          <p>
+            42 Meridian Avenue
+            <br>
+            Karachi
+          </p>
+        </div>
+        <div>
+          <h3>
+            Our team
+          </h3>
+          <p>
+            Arsen · Kuttibay
+            <br>
+            Farabi · Muhammad
+          </p>
+        </div>
+      </div>
+      <div class="container assignment-tools">
+        <div class="tool-actions">
+          <button class="btn" type="button" data-open-subscription>
+            Subscribe to Apex
+          </button>
+          <button class="btn alt tool-button" type="button" data-change-background>
+            Change background
+          </button>
+          <span class="tool-status">
+            Background:
+            <output data-background-status aria-live="polite">
+              Warm ivory
+            </output>
+          </span>
+        </div>
+        <div class="local-clock">
+          <small>
+            Your local date and time
+          </small>
+          <time data-current-time>
+            Loading local time...
+          </time>
+        </div>
+      </div>
+    </footer>
+    <dialog class="subscription-dialog" id="subscription-dialog" data-subscription-dialog aria-labelledby="subscription-title">
+      <div class="modal-card">
+        <button class="modal-close" type="button" data-close-subscription aria-label="Close subscription form">
+          ×
+        </button>
+        <div class="kicker modal-kicker">
+          Stay in the loop
+        </div>
+        <h2 id="subscription-title">
+          Your next chapter starts here.
+        </h2>
+        <p>
+          Subscribe for the latest arrivals and Apex Motors news.
+        </p>
+        <form id="subscription-form" data-validate-form novalidate data-success="Your sample subscription is valid. No data was sent or stored.">
+          <div class="field">
+            <label for="subscription-email">
+              Email address
+            </label>
+            <input id="subscription-email" name="email" type="email" autocomplete="email" required data-validate aria-describedby="subscription-email-error" placeholder="you@example.com">
+            <span class="field-error" id="subscription-email-error" aria-live="polite"></span>
+          </div>
+          <button class="btn" type="submit">
+            Subscribe
+          </button>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          <p class="field-hint">
+            Demo form only. Your email is not sent or stored.
+          </p>
+        </form>
+      </div>
+    </dialog>
+  </body>
+</html>
