@@ -24,6 +24,8 @@ The report is `report/Assignment-4-Report.pdf`. Screenshots for all five tasks a
 
 ## Website
 
-Existing website: https://vertex-blip.github.io/Car-dealership-website/
+GitHub repository: https://github.com/Kutysh777/apex-motors-assignment-4
 
-The updated project in this archive has not been published. The existing website currently serves an earlier version.
+Website URL: https://kutysh777.github.io/apex-motors-assignment-4/
+
+The project is uploaded to the repository and published with GitHub Pages. The live website is available at the address above.
